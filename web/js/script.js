@@ -32,7 +32,7 @@ $(document).ready(function () {
                 data: dados,
                
                 success: function (resposta) {
-                    $('#ajax').html(resposta)
+                    $('#resultado').html(resposta)
                 },
                 
                 error: function () {

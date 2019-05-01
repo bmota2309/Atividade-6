@@ -21,7 +21,7 @@
             <header class="row no-gutters" id="topo">
                 <div class="col-12 col-md-6">
                     <nav class="navbar navbar-expand-sm navbar-light bg-clean">
-                        <a class="navbar-brand" href="#">1º GTI FATEC</a>
+                        <a class="navbar-brand" href="#">1ºGTI FATEC</a>
                     </nav>
                 </div> 
 
@@ -74,26 +74,34 @@
                                 </div>
                                     <div class="form-row">
                                     <div class="col-12 col-md-6 offset-md-3">
-                                        <label for="cpf">Telefone</label>
+                                        <label for="telefone">Telefone</label>
                                         <input type="text" name="telefone" id="telefone" class="form-control" />
                                     </div>
-                                </div> 
+                                </div>
+
+
                                 <br>    
                                 <br>    
                                 <div class="form-row">
                                     <div class="col-6 offset-md-3">
-                                        <input type="submit" name="enviar" id="enviar" value="CADASTRAR" class="btn btn-outline-danger form-control" />
+                                        <input type="submit" name="enviar" id="enviar" value="Enviar" class="btn btn-dark form-control" />
                                     </div>
+                                </div>
                             </form>
                         </div> 
+                        
                         <div id="resultado" class="text-center"></div>
+
                     </div>
                 </div>
             </section>
 
             <br>
             <br>
-    </div>   
+
+             
+
+        </div>   
 
     </body>
 </html>
